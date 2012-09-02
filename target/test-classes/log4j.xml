@@ -24,7 +24,7 @@
       </layout>
    </appender>
 
-   <logger name="org.tilu" additivity="false" >
+   <logger name="test.tilu" additivity="false" >
       <level value="DEBUG" />
       <appender-ref ref="consoleAppender"/>
       <appender-ref ref="fileAppender"/>

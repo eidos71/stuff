@@ -24,7 +24,7 @@
       </layout>
    </appender>
  
-   <logger name="org.tilu.beats" additivity="false" >
+   <logger name="org.tilu" additivity="false" >
       <level value="INFO" />
       <appender-ref ref="consoleAppender"/>
       <appender-ref ref="fileAppender"/>
