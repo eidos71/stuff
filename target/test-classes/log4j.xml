@@ -29,7 +29,11 @@
       <appender-ref ref="consoleAppender"/>
       <appender-ref ref="fileAppender"/>
    </logger>
-
+   <logger name="org.tilu.stuff" additivity="false" >
+      <level value="DEBUG" />
+      <appender-ref ref="consoleAppender"/>
+      <appender-ref ref="fileAppender"/>
+   </logger>
 
      <logger name="org" additivity="false" >
       <level value="WARN" />

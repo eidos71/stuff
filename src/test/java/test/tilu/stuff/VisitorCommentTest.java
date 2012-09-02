@@ -27,6 +27,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import org.tilu.stuff.beans.CommentFormBean;
 import org.tilu.stuff.businessdelegate.WebBussinessDelegate;
+import org.tilu.stuff.tools.StatusEnum;
 import org.tilu.stuff.web.controller.WriteCommentController;
 import org.tilu.stuff.web.controller.WriteCommentControllerImpl;
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -45,16 +46,36 @@ public class VisitorCommentTest {
 	private CommentFormBean commentFormBean;
 	@Before
 	public void setUp() throws Exception {
-		//mockWebDelegate=  mockery.mock(WebBussinessDelegate.class);
-		writeController= new WriteCommentControllerImpl();
-		//mCommentFormBean= mockery.mock(CommentFormBean.class);
-	
+		if (commentFormBean==null)
+			logger.debug("is null commentFormBean");
+		if (webBussinessDelegate==null)
+			logger.debug("webBussinessDelegate s null");
+		writeController= new WriteCommentControllerImpl(webBussinessDelegate);
 	}
 
 	@After
 	public void tearDown() throws Exception {
 	}
-
+	@Test
+	public void testVisitorLeavesCommentAndFails() throws Exception {
+		
+		
+		//controller is sent and information passed
+		//Bean is injected with the information
+		//Process ends.
+		mockery.checking(new Expectations() {
+			{
+				//Visitor is logged and mocked.
+				oneOf(webBussinessDelegate).createCommentPolicy(with(any(CommentFormBean.class))); will(returnValue(StatusEnum.FAILURE));
+				
+				
+			}
+		});
+		ModelAndView mav= writeController.handleRequest(new MockHttpServletRequest(), new MockHttpServletResponse() );
+		assertTrue("The cancelwriteform view should be returned.",
+				"cancelwriteform".equals(mav.getViewName()));
+		
+	}
 	@Test
 	public void testVisitorLeavesComment() throws Exception {
 		
@@ -65,16 +86,12 @@ public class VisitorCommentTest {
 		mockery.checking(new Expectations() {
 			{
 				//Visitor is logged and mocked.
-				oneOf(commentFormBean);
-			
-				oneOf(webBussinessDelegate).createCommentPolicy(commentFormBean);
-				will(returnValue("Success"));
-			
+				oneOf(webBussinessDelegate).createCommentPolicy(with(any(CommentFormBean.class)));will(returnValue(StatusEnum.SUCCESS));
+				
 			}
 		});
 		
 		ModelAndView mav= writeController.handleRequest(new MockHttpServletRequest(), new MockHttpServletResponse() );
-		
 		assertTrue("The create view should be returned.",
 				"successwriteform".equals(mav.getViewName()));
 		

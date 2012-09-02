@@ -1,20 +1,22 @@
 package org.tilu.stuff.businessdelegate;
 
 import org.tilu.stuff.beans.CommentFormBean;
+import org.tilu.stuff.tools.StatusEnum;
+
 
 public class WebBussinessDelegateImpl implements WebBussinessDelegate{
 
 	@Override
-	public String createCommentPolicy(CommentFormBean mCommentFormBean) {
+	public StatusEnum createCommentPolicy(CommentFormBean mCommentFormBean) {
 		// TODO Auto-generated method stub
-		return "";
+		return null;
 		
 	}
 
 	@Override
-	public void deleteCommentPolicy(CommentFormBean mCommentFormBean) {
+	public StatusEnum deleteCommentPolicy(CommentFormBean mCommentFormBean) {
 		// TODO Auto-generated method stub
-		
+		return null;
 	}
 
 }

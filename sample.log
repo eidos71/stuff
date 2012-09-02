@@ -799,3 +799,53 @@ Caused by: org.springframework.beans.factory.BeanInitializationException: Proper
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1074)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
 	... 28 more
+2012-09-02 22:52:06,883                 ERROR  [TestContextManager] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7ca522a6] to prepare test instance [test.tilu.stuff.VisitorCommentTest@3d860038] 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'writeCommentControllerImpl' defined in file [C:\Users\EPV390\Documents\GitHub\stuff\target\classes\org\tilu\stuff\web\controller\WriteCommentControllerImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.tilu.stuff.web.controller.WriteCommentControllerImpl]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.tilu.stuff.web.controller.WriteCommentControllerImpl.<init>()
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:965)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:911)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:580)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:96)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:44)
+	at org.springframework.test.context.TestContext.buildApplicationContext(TestContext.java:198)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:233)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:126)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:85)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:95)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:139)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.tilu.stuff.web.controller.WriteCommentControllerImpl]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.tilu.stuff.web.controller.WriteCommentControllerImpl.<init>()
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:70)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:958)
+	... 30 more
+Caused by: java.lang.NoSuchMethodException: org.tilu.stuff.web.controller.WriteCommentControllerImpl.<init>()
+	at java.lang.Class.getConstructor0(Unknown Source)
+	at java.lang.Class.getDeclaredConstructor(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:65)
+	... 31 more
+2012-09-02 23:21:48,153                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-02 23:21:48,165                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-02 23:26:32,582                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-02 23:26:32,593                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-02 23:51:13,043                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-02 23:51:13,050                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 00:04:47,553                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 00:04:47,561                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
