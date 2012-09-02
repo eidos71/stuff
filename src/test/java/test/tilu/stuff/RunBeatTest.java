@@ -8,8 +8,8 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class RunTestBeats {
-	 private final static Logger logger = LoggerFactory.getLogger(RunTestBeats.class);
+public class RunBeatTest {
+	 private final static Logger logger = LoggerFactory.getLogger(RunBeatTest.class);
 	@Before
 	public void setUp() throws Exception {
 		

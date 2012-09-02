@@ -31,9 +31,9 @@ import org.tilu.stuff.web.controller.WriteCommentController;
 import org.tilu.stuff.web.controller.WriteCommentControllerImpl;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "/runVisitorComments-ctx.xml" })
-public class RunVisitorComments {
+public class VisitorCommentTest {
 
-	private final static Logger logger = LoggerFactory.getLogger(RunVisitorComments.class);
+	private final static Logger logger = LoggerFactory.getLogger(VisitorCommentTest.class);
 	private WriteCommentController writeController;
 	@Resource
 	private WebBussinessDelegate webBussinessDelegate;
