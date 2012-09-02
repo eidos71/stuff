@@ -57,12 +57,16 @@
 
         <!-- First declare the APIs we depend on and need for compilation. 
             All of them are provided by JBoss AS 7 -->
-	<dependency>
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${org.springframework.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
 		<!-- Various Application Context utilities, including EhCache, JavaMail, 
 			Quartz, and Freemarker integration Define this if you need any of these integrations -->
 		<dependency>
