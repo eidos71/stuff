@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans default-autowire="byName"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:batch="http://www.springframework.org/schema/batch"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:drools="http://drools.org/schema/drools-spring"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                                http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                                http://www.springframework.org/schema/batch 
+                                http://www.springframework.org/schema/batch/spring-batch-2.1.xsd                                
+                                http://www.springframework.org/schema/context 
+                                http://www.springframework.org/schema/context/spring-context-2.5.xsd
+                                http://www.springframework.org/schema/aop 
+                                http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+                                http://www.springframework.org/schema/tx 
+                                http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+                                http://drools.org/schema/drools-spring 
+                                http://drools.org/schema/drools-spring.xsd">
+
+
+	<context:annotation-config />
+	<context:component-scan base-package="test.tilu" />
+	<context:component-scan base-package="org.tilu" />
+	<context:property-placeholder location="classpath:beats.properties" />
+	
+	<beans:bean name="mockContext" 
+			class="org.jmock.Mockery"/>
+			
+	 <!-- Mock Object -->
+	    <beans:bean id="commentFormBean" name="commentFormBean" factory-bean="mockContext" factory-method="mock"
+	    	 class="org.tilu.stuff.beans.CommentFormBean">
+	        <beans:constructor-arg value="org.tilu.stuff.beans.CommentFormBean" />
+	    </beans:bean>
+
+	 <!-- Mock Object -->
+	    <beans:bean id="webBussinessDelegate" name="webBussinessDelegate" factory-bean="mockContext" factory-method="mock"
+	    	 class="org.tilu.stuff.businessdelegate.WebBussinessDelegate">
+	        <beans:constructor-arg value="org.tilu.stuff.businessdelegate.WebBussinessDelegate" />
+	    </beans:bean>
+
+<!-- 	<beans:bean id="taskServiceFactory"  -->
+<!-- 		class="org.tilu.beats.dataprocessing.service.TaskServiceFactory" scope="prototype"  />   -->
+<!-- 	<beans:bean id="mailTaskService"  -->
+<!-- 		class="org.tilu.beats.dataprocessing.service.MailTaskService" scope="prototype" />   -->
+<!-- 	<beans:bean id="newsLetterTaskService"  -->
+<!-- 		 class="org.tilu.beats.dataprocessing.service.NewsLetterTaskService" scope="prototype" />  -->
+	
+
+	
+
+	<!--  ADVISER DEFINITION -->
+<!-- 	<beans:bean id="customerService" class="org.tilu.beats.dataprocessing.service.CustomerService"> -->
+<!-- 		<beans:property name="name" value="Beats and stuff" /> -->
+<!-- 		<beans:property name="url" value="http://tilusinc.com" /> -->
+<!-- 	</beans:bean> -->
+<!-- 	<beans:bean id="throwsAdviceExample" class="org.tilu.beats.dataprocessing.service.ThrowsAdviceExample" /> -->
+<!-- 	<beans:bean id="customerServiceProxy"  -->
+<!-- 	                 class="org.springframework.aop.framework.ProxyFactoryBean"> -->
+<!-- 			<beans:property name="target" ref="customerService" /> -->
+<!-- 			<beans:property name="interceptorNames"> -->
+<!-- 				<beans:list> -->
+<!-- 					<beans:value>throwsAdviceExample</beans:value> -->
+<!-- 				</beans:list> -->
+<!-- 			</beans:property> -->
+<!-- 	</beans:bean>	 -->
+
+	
+<!-- 	<beans:bean id="senderExceptionAdvice" class="org.tilu.beats.dataprocessing.exceptions.SenderExceptionAdvice" /> -->
+	
+<!-- 	<beans:bean id="mailTaskProxy" class="org.springframework.aop.framework.ProxyFactoryBean"> -->
+<!--  		<beans:property name="target" ref="mailTask" /> -->
+<!--  		<beans:property name="interceptorNames"> -->
+<!-- 			<beans:list> -->
+<!-- 				<beans:value>senderExceptionAdvice</beans:value> -->
+<!-- 			</beans:list> -->
+<!-- 		</beans:property> -->
+<!-- 	</beans:bean> -->
+<!-- 	<beans:bean id="commsTaskProxy" class="org.springframework.aop.framework.ProxyFactoryBean"> -->
+<!--  		<beans:property name="target" ref="commsTask" /> -->
+<!--  		<beans:property name="interceptorNames"> -->
+<!-- 			<beans:list> -->
+<!-- 				<beans:value>senderExceptionAdvice</beans:value> -->
+<!-- 			</beans:list> -->
+<!-- 		</beans:property> -->
+<!-- 	</beans:bean> -->
+
+	
+	<!--  DATABASESOURCE -->
+
+	<beans:bean id="dataSource" destroy-method="close"
+		class="org.apache.commons.dbcp.BasicDataSource">
+		<beans:property name="driverClassName" value="${jdbc.driver}" />
+		<beans:property name="url" value="${jdbc.urdb.url}" />
+		<beans:property name="username" value="${jdbc.urdb.username}" />
+		<beans:property name="password" value="${jdbc.urdb.password}" />
+
+		<beans:property name="maxActive" value="10" />
+		<beans:property name="testOnBorrow" value="true" />
+		<beans:property name="validationQuery" value="select 1" />
+		<beans:property name="testWhileIdle" value="true" />
+		<beans:property name="timeBetweenEvictionRunsMillis" value="10000" />
+		<beans:property name="minEvictableIdleTimeMillis" value="60000" />
+	</beans:bean>
+<!-- 	<beans:bean id="userDAO" class="org.tilu.beats.dataprocessing.daos.impl.UserDaoImpl"> -->
+<!-- 		<beans:property name="dataSource" ref="dataSource" /> -->
+<!-- 	</beans:bean> -->
+
+</beans:beans>
