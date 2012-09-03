@@ -849,3 +849,592 @@ Caused by: java.lang.NoSuchMethodException: org.tilu.stuff.web.controller.WriteC
 2012-09-02 23:51:13,050                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
 2012-09-03 00:04:47,553                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
 2012-09-03 00:04:47,561                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 08:52:34,817                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:52:34,823                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:52:34,830                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:52:34,833                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:53:11,431                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:53:11,437                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:53:11,445                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:53:11,448                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:53:38,259                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:53:38,265                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:53:38,273                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:53:38,276                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:55:33,362                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:55:33,370                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:55:33,378                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:55:33,381                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 08:56:52,493                 INFO   [VisitorCommentTest]  
+2012-09-03 08:56:52,500                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:01:54,854                 INFO   [VisitorCommentTest] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:01:54,861                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:03:07,787                 DEBUG  [WriteCommentControllerImpl]  
+2012-09-03 09:03:07,790                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:03:07,800                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:03:07,805                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:03:07,805                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:03:07,808                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:03:07,809                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:05:59,031                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:05:59,038                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:05:59,042                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:05:59,044                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:05:59,050                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:05:59,050                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:07:20,481                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:07:20,484                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:09:46,265                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:09:46,268                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:09:54,120                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:09:54,126                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:09:54,130                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:09:54,133                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:09:54,138                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:09:54,138                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:11:45,214                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:11:45,220                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:11:45,225                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:11:45,227                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:11:45,232                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:11:45,232                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:11:52,506                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:11:52,509                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:12:55,489                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:12:55,492                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:13:08,431                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:13:08,439                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:13:08,445                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:13:08,449                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:13:08,454                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:13:08,455                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:18:36,807                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:18:36,813                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:18:36,818                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:18:36,827                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:19:16,477                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:21:14,181                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:21:36,370                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:21:36,373                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:22:26,930                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:22:26,933                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:22:33,850                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:22:33,856                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:22:33,862                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:22:33,864                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:22:33,869                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:22:33,869                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:24:14,196                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:24:14,204                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:24:14,209                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:24:14,211                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:24:14,217                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:24:14,217                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:26:38,700                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:26:38,704                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:26:50,868                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:26:50,872                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:27:04,928                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:27:04,932                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:27:16,848                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:27:16,854                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:27:16,860                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:27:16,862                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:27:16,871                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:27:16,871                 INFO   [WriteCommentControllerImpl] viewname value is cancelwriteform 
+2012-09-03 09:28:26,950                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:28:26,959                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:28:26,965                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:28:26,967                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:28:26,973                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:28:26,973                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:29:00,768                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:29:00,774                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:29:00,779                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:29:00,781                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:29:00,787                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 09:29:00,787                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:29:46,904                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:29:46,912                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:29:46,919                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:29:46,923                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:29:46,932                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 09:29:46,932                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:31:35,487                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:31:35,493                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 09:31:35,499                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 09:31:35,502                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 09:31:35,507                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 09:31:35,507                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 13:28:49,845                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:28:49,861                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:28:49,861                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:28:49,861                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 13:28:49,861                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:28:49,861                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 13:36:11,477                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:36:11,484                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:36:11,491                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:36:11,501                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:37:32,552                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:37:32,581                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:37:32,588                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:37:32,591                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:39:27,236                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:39:27,265                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:39:27,269                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:39:27,270                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:39:27,274                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:39:27,276                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:39:27,284                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:39:27,285                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:40:37,106                 ERROR  [TestContextManager] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@460c5e9c] to prepare test instance [test.tilu.stuff.VisitorCommentTest@561777b1] 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'writeCommentControllerImpl' defined in file [C:\Users\EPV390\Documents\GitHub\stuff\target\classes\org\tilu\stuff\web\controller\WriteCommentControllerImpl.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: No Scope registered for scope 'session'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:527)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:580)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:96)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:44)
+	at org.springframework.test.context.TestContext.buildApplicationContext(TestContext.java:198)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:233)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:126)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:85)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:95)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:139)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.IllegalStateException: No Scope registered for scope 'session'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:353)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:983)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:879)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByName(AbstractAutowireCapableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	... 28 more
+2012-09-03 13:41:11,833                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:41:11,864                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:41:11,864                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:41:11,864                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:41:11,864                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:41:11,864                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:41:11,880                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:41:11,880                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:42:07,681                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:42:07,729                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:42:07,729                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:42:07,729                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:42:07,729                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:42:07,729                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:42:07,745                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:42:07,745                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:44:52,738                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:44:52,784                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:44:52,785                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:44:52,785                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:44:52,785                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:44:52,785                 INFO   [VisitorCommentTest] org.jmock.Mockery@5d6ea269 
+2012-09-03 13:44:52,785                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:44:52,801                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:44:52,801                 INFO   [VisitorCommentTest] org.jmock.Mockery@27b4c1d7 
+2012-09-03 13:44:52,801                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:45:39,977                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:45:40,024                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:45:40,024                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:45:40,024                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:45:40,024                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:45:40,040                 INFO   [VisitorCommentTest] org.jmock.Mockery@13e4a47e 
+2012-09-03 13:45:40,040                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:45:40,040                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 13:45:40,040                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:45:40,040                 INFO   [VisitorCommentTest] org.jmock.Mockery@13e4a47e 
+2012-09-03 13:45:40,040                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:45:40,040                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 13:47:21,375                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:47:21,391                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:47:21,407                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:47:21,407                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:47:21,407                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:47:21,407                 INFO   [VisitorCommentTest] org.jmock.Mockery@6b754699 
+2012-09-03 13:47:21,407                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:47:21,407                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 13:47:21,423                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:47:21,423                 INFO   [VisitorCommentTest] org.jmock.Mockery@6b754699 
+2012-09-03 13:47:21,423                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:47:21,423                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform 
+2012-09-03 13:47:49,642                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:47:49,674                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:47:49,674                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:47:49,674                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:47:49,690                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:47:49,690                 INFO   [VisitorCommentTest] org.jmock.Mockery@7eb5666 
+2012-09-03 13:47:49,690                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:47:49,690                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 13:47:49,690                 DEBUG  [VisitorCommentTest] is null mockContext 
+2012-09-03 13:47:49,690                 INFO   [VisitorCommentTest] org.jmock.Mockery@7eb5666 
+2012-09-03 13:47:49,690                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:47:49,690                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 13:51:12,914                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:51:12,914                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:51:12,914                 INFO   [VisitorCommentTest] org.jmock.Mockery@79226a77 
+2012-09-03 13:51:12,914                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:51:12,930                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 13:51:12,930                 INFO   [VisitorCommentTest] org.jmock.Mockery@79226a77 
+2012-09-03 13:51:12,930                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:51:12,930                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 13:51:44,091                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:51:44,097                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:51:44,102                 INFO   [VisitorCommentTest] org.jmock.Mockery@427be8c2 
+2012-09-03 13:51:44,102                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:51:44,105                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 13:51:44,110                 INFO   [VisitorCommentTest] org.jmock.Mockery@427be8c2 
+2012-09-03 13:51:44,110                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 13:51:44,110                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 13:53:58,213                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:53:58,219                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 13:53:58,226                 INFO   [VisitorCommentTest] org.jmock.Mockery@edc86eb 
+2012-09-03 13:53:58,226                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 13:53:58,229                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:04:56,378                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:04:56,386                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:04:56,393                 INFO   [VisitorCommentTest] org.jmock.Mockery@79226a77 
+2012-09-03 14:04:56,393                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:04:56,396                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:04:56,402                 INFO   [VisitorCommentTest] org.jmock.Mockery@79226a77 
+2012-09-03 14:04:56,402                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 14:04:56,402                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:05:37,191                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:05:37,198                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:05:37,204                 INFO   [VisitorCommentTest] org.jmock.Mockery@644cd580 
+2012-09-03 14:05:37,204                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:05:37,207                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:05:37,213                 INFO   [VisitorCommentTest] org.jmock.Mockery@644cd580 
+2012-09-03 14:05:37,213                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 14:05:37,213                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:06:19,393                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:06:19,398                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:06:19,447                 INFO   [VisitorCommentTest] org.jmock.Mockery@54ee3aa7 
+2012-09-03 14:06:19,448                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:06:19,450                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:06:19,457                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 14:06:19,457                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:07:45,927                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:07:45,933                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:07:45,976                 INFO   [VisitorCommentTest] org.jmock.Mockery@427be8c2 
+2012-09-03 14:07:45,977                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:07:45,979                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:07:45,985                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 14:07:45,985                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:08:34,770                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:08:34,777                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:08:34,822                 INFO   [VisitorCommentTest] org.jmock.Mockery@54ee3aa7 
+2012-09-03 14:08:34,822                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:08:34,824                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:08:34,831                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 14:08:34,831                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:09:15,425                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:09:15,430                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:09:15,471                 INFO   [VisitorCommentTest] org.jmock.Mockery@427be8c2 
+2012-09-03 14:09:15,471                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:09:15,474                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:09:39,417                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 14:10:05,896                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 14:12:13,558                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:12:13,565                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:12:13,571                 INFO   [VisitorCommentTest] org.jmock.Mockery@7054f9f1 
+2012-09-03 14:12:13,571                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:12:13,573                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:13:08,011                 INFO   [VisitorCommentTest] org.jmock.Mockery@6e92b1a1 
+2012-09-03 14:13:49,351                 INFO   [VisitorCommentTest] org.jmock.Mockery@edc86eb 
+2012-09-03 14:14:14,093                 ERROR  [TestContextManager] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6401d98a] to prepare test instance [test.tilu.stuff.VisitorCommentTest@35712651] 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'test.tilu.stuff.VisitorCommentTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'webBussinessDelegate' must be of type [org.tilu.stuff.businessdelegate.WebBussinessDelegateImpl], but was actually of type [$Proxy19]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:300)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1074)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:374)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:127)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:85)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:95)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:139)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'webBussinessDelegate' must be of type [org.tilu.stuff.businessdelegate.WebBussinessDelegateImpl], but was actually of type [$Proxy19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:349)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:435)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:409)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:541)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:147)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:297)
+	... 18 more
+2012-09-03 14:15:17,169                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:15:17,175                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:15:17,181                 INFO   [VisitorCommentTest] org.jmock.Mockery@644cd580 
+2012-09-03 14:15:17,182                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:16:49,803                 INFO   [VisitorCommentTest] org.jmock.Mockery@6e92b1a1 
+2012-09-03 14:17:02,289                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:17:02,296                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:17:02,302                 INFO   [VisitorCommentTest] org.jmock.Mockery@edc86eb 
+2012-09-03 14:17:02,302                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:17:02,305                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:17:51,920                 ERROR  [TestContextManager] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6401d98a] to prepare test instance [test.tilu.stuff.VisitorCommentTest@35712651] 
+java.lang.IllegalStateException: @Resource annotation is not supported on static fields
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:333)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1074)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:374)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:127)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:85)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:95)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:139)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-09-03 14:18:12,798                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:18:12,806                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:18:12,816                 INFO   [VisitorCommentTest] org.jmock.Mockery@301db5ec 
+2012-09-03 14:18:12,816                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:18:12,819                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:18:27,501                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:18:27,508                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:18:27,515                 INFO   [VisitorCommentTest] org.jmock.Mockery@427be8c2 
+2012-09-03 14:18:27,516                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:18:27,518                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:18:27,524                 INFO   [VisitorCommentTest] org.jmock.Mockery@427be8c2 
+2012-09-03 14:18:27,524                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 14:18:27,524                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 14:41:43,305                 ERROR  [TestContextManager] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@59d0d45b] to prepare test instance [test.tilu.stuff.VisitorCommentTest@1d25d06e] 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'writeCommentControllerImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.validation.Validator org.tilu.stuff.web.controller.WriteCommentControllerImpl.validator; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.validation.Validator] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1074)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:580)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:96)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:44)
+	at org.springframework.test.context.TestContext.buildApplicationContext(TestContext.java:198)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:233)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:126)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:85)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:95)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:139)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.validation.Validator org.tilu.stuff.web.controller.WriteCommentControllerImpl.validator; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.validation.Validator] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:502)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:282)
+	... 30 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.validation.Validator] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:920)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:789)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:703)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:474)
+	... 32 more
+2012-09-03 14:43:41,155                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:43:41,161                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 14:43:41,169                 INFO   [VisitorCommentTest] org.jmock.Mockery@11c7865b 
+2012-09-03 14:43:41,169                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 14:43:41,172                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 18:23:19,130                 ERROR  [TestContextManager] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@76caf6c1] to prepare test instance [test.tilu.stuff.web.controller.WriteCommentControllerTest@70e35d5] 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'writeCommentControllerImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.validation.Validator org.tilu.stuff.web.controller.WriteCommentControllerImpl.validator; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping] for bean with name 'org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping#0' defined in class path resource [runVisitorComments-ctx.xml]; nested exception is java.lang.ClassNotFoundException: org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1074)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:580)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:96)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:44)
+	at org.springframework.test.context.TestContext.buildApplicationContext(TestContext.java:198)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:233)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:126)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:85)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:95)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:139)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.validation.Validator org.tilu.stuff.web.controller.WriteCommentControllerImpl.validator; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping] for bean with name 'org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping#0' defined in class path resource [runVisitorComments-ctx.xml]; nested exception is java.lang.ClassNotFoundException: org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:502)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:282)
+	... 30 more
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping] for bean with name 'org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping#0' defined in class path resource [runVisitorComments-ctx.xml]; nested exception is java.lang.ClassNotFoundException: org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1319)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:315)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:185)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:829)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:786)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:703)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:474)
+	... 32 more
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:257)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:408)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1271)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1242)
+	... 40 more
+2012-09-03 18:25:53,972                 ERROR  [TestContextManager] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4c221e9e] to prepare test instance [test.tilu.stuff.web.controller.WriteCommentControllerTest@54083e1e] 
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping] for bean with name 'org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping#0' defined in class path resource [runVisitorComments-ctx.xml]; nested exception is java.lang.ClassNotFoundException: org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:885)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:562)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:96)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:44)
+	at org.springframework.test.context.TestContext.buildApplicationContext(TestContext.java:198)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:233)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:126)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:85)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:95)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:139)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.servlet.mvc.annotation.                              DefaultAnnotationHandlerMapping
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:257)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:408)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1271)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1242)
+	... 26 more
+2012-09-03 18:32:08,999                 ERROR  [TestContextManager] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@52c00025] to prepare test instance [test.tilu.stuff.VisitorCommentTest@3b49a794] 
+java.lang.IllegalStateException: @Resource annotation is not supported on static fields
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:333)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1074)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:374)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:127)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:85)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:95)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:139)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-09-03 18:33:16,055                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 18:33:16,064                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 18:33:16,072                 INFO   [VisitorCommentTest] org.jmock.Mockery@7433b121 
+2012-09-03 18:33:16,073                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 18:33:16,075                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 18:33:38,643                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 18:33:38,651                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-03 18:33:38,657                 INFO   [VisitorCommentTest] org.jmock.Mockery@40e99ce5 
+2012-09-03 18:33:38,657                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-03 18:33:38,660                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 18:33:38,668                 INFO   [VisitorCommentTest] org.jmock.Mockery@40e99ce5 
+2012-09-03 18:33:38,678                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso. 
+2012-09-03 18:33:38,678                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-03 18:47:34,498                 DEBUG  [WriteCommentControllerImpl] 15 
+2012-09-03 18:51:33,991                 DEBUG  [WriteCommentControllerImpl] 15 
+2012-09-03 18:53:27,268                 DEBUG  [WriteCommentControllerImpl] 15 
+2012-09-03 18:54:53,816                 DEBUG  [WriteCommentControllerImpl] 15 
+2012-09-03 18:55:53,536                 DEBUG  [WriteCommentControllerImpl] 15 
+2012-09-03 18:58:00,195                 DEBUG  [WriteCommentControllerImpl] 15 
+2012-09-03 18:58:00,199                 INFO   [WriteCommentControllerImpl] viewname value is successdeleteform and status is SUCCESS 

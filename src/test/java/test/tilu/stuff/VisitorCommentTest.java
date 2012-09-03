@@ -4,19 +4,27 @@ import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import javax.annotation.Resource;
+import javax.inject.Inject;
 
 import org.jmock.Expectations;
 import org.jmock.Mockery;
+import org.jmock.States;
+import org.jmock.internal.State;
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Scope;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.test.context.ContextConfiguration;
@@ -33,68 +41,152 @@ import org.tilu.stuff.web.controller.WriteCommentControllerImpl;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "/runVisitorComments-ctx.xml" })
 public class VisitorCommentTest {
-
+	final static String  COMMENT_FORM = "inputComment";
 	private final static Logger logger = LoggerFactory.getLogger(VisitorCommentTest.class);
 	private WriteCommentController writeController;
 	@Resource
 	private WebBussinessDelegate webBussinessDelegate;
 	@Autowired
 	ApplicationContext context;
-	@Resource
-	private Mockery mockery ;
+	@Inject
+	private  Mockery mockContext ;
 	@Resource
 	private CommentFormBean commentFormBean;
+	private MockHttpServletRequest mockHttpServletRequest;
+
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+		
+	}
 	@Before
 	public void setUp() throws Exception {
+		mockContext= context.getBean("mockContext",Mockery.class);
+	
+		if (mockContext==null)
+			logger.debug("is null mockContext");
 		if (commentFormBean==null)
 			logger.debug("is null commentFormBean");
 		if (webBussinessDelegate==null)
 			logger.debug("webBussinessDelegate s null");
 		writeController= new WriteCommentControllerImpl(webBussinessDelegate);
+		mockHttpServletRequest= new MockHttpServletRequest();
 	}
 
 	@After
 	public void tearDown() throws Exception {
 	}
-	@Test
-	public void testVisitorLeavesCommentAndFails() throws Exception {
+
+	@BeforeClass
+	public static void  setUpBeforeClass() throws Exception {
+	
 		
-		
+	}
+
+
+	@Test (expected = IllegalArgumentException.class)  
+	public void testVisitorCommentsEmpty() throws Exception{
 		//controller is sent and information passed
 		//Bean is injected with the information
 		//Process ends.
-		mockery.checking(new Expectations() {
+		mockContext.states( UUID.randomUUID().toString() );
+		mockContext.checking(new Expectations() {
 			{
 				//Visitor is logged and mocked.
-				oneOf(webBussinessDelegate).createCommentPolicy(with(any(CommentFormBean.class))); will(returnValue(StatusEnum.FAILURE));
-				
+				exactly(1).of(webBussinessDelegate).createCommentPolicy(with(any(CommentFormBean.class))); will(returnValue(StatusEnum.SUCCESS));
 				
 			}
 		});
-		ModelAndView mav= writeController.handleRequest(new MockHttpServletRequest(), new MockHttpServletResponse() );
+		//we add a parameter.
+		mockHttpServletRequest.setMethod("POST");
+		String mockNull="";
+		mockHttpServletRequest.addParameter(COMMENT_FORM, mockNull);
+		ModelAndView mav= writeController.handleRequest(mockHttpServletRequest, new MockHttpServletResponse() );
 		assertTrue("The cancelwriteform view should be returned.",
 				"cancelwriteform".equals(mav.getViewName()));
-		
+			
+	}
+	@Test (expected = IllegalArgumentException.class)  
+	public void testVistiorLeavesCommentNullRequest() throws Exception{
+		//controller is sent and information passed
+		//Bean is injected with the information
+		//Process ends.
+		mockContext.states( UUID.randomUUID().toString() );
+		mockContext.checking(new Expectations() {
+			{
+				//Visitor is logged and mocked.
+				exactly(1).of(webBussinessDelegate).createCommentPolicy(with(any(CommentFormBean.class))); will(returnValue(StatusEnum.SUCCESS));
+				
+			}
+		});
+		//we add a parameter.
+		mockHttpServletRequest.setMethod("POST");
+		String mockNull=null;
+		mockHttpServletRequest.addParameter(COMMENT_FORM, mockNull);
+		ModelAndView mav= writeController.handleRequest(mockHttpServletRequest, new MockHttpServletResponse() );
+		assertTrue("The cancelwriteform view should be returned.",
+				"cancelwriteform".equals(mav.getViewName()));
 	}
 	@Test
 	public void testVisitorLeavesComment() throws Exception {
 		
-		
+		mockContext.states( UUID.randomUUID().toString() );
 		//controller is sent and information passed
 		//Bean is injected with the information
 		//Process ends.
-		mockery.checking(new Expectations() {
+		Expectations success= new Expectations() {
 			{
 				//Visitor is logged and mocked.
-				oneOf(webBussinessDelegate).createCommentPolicy(with(any(CommentFormBean.class)));will(returnValue(StatusEnum.SUCCESS));
+				exactly(1).of(webBussinessDelegate).createCommentPolicy(with(any(CommentFormBean.class)));
+				will(returnValue(StatusEnum.SUCCESS));
 				
 			}
-		});
+		};
+	
+		mockContext.checking(success);
+		logger.info(mockContext.toString() );
+		//we add a parameter.
+
+		mockHttpServletRequest.setMethod("POST");
+		String mockString="Este es un comentario que ha sido enviado a por el tema";
+		mockHttpServletRequest.addParameter(COMMENT_FORM, mockString );
 		
-		ModelAndView mav= writeController.handleRequest(new MockHttpServletRequest(), new MockHttpServletResponse() );
-		assertTrue("The create view should be returned.",
+		ModelAndView mav= writeController.handleRequest(mockHttpServletRequest, new MockHttpServletResponse() );
+		assertTrue("The successwriteform view should be returned.",
 				"successwriteform".equals(mav.getViewName()));
 		
 	}
+	@Ignore
+	@Test public void testVisitorLeavesCommentProcessFails() throws Exception {
+		//The mockery is keeping the status and giving a big error on ll
+		final States initializationState= mockContext.states( "failure-state" ).startsAs( "failurestate" );
+		//controller is sent and information passed
+		//Bean is injected with the information
+		//Process ends.
+		Expectations failure= new Expectations() {
+			{
+				//Visitor is logged and mocked.
+			
+				exactly(1).of(webBussinessDelegate).createCommentPolicy(with(any(CommentFormBean.class)));
+				when( initializationState.is( "failurestate" ) );
+				will(returnValue(StatusEnum.FAILURE));
+				
+			}
+		};
+		
+		
+		mockContext.checking(failure);
+		logger.info(mockContext.toString() );
+		
+		//we add a parameter.
+		mockHttpServletRequest.setMethod("POST");
+		String mockNull="Este es un comentario que ha sido enviado y por algún motivo se detendra en su proceso.";
+		mockHttpServletRequest.addParameter(COMMENT_FORM, mockNull);
+		ModelAndView mav= writeController.handleRequest(mockHttpServletRequest, new MockHttpServletResponse() );
+		assertTrue("The cancelwriteform view should be returned.",
+				"cancelwriteform".equals(mav.getViewName()));
+		
+	}
+
 
 }

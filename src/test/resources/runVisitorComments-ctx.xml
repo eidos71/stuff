@@ -25,7 +25,8 @@
 	
 	<beans:bean name="mockContext" 
 			class="org.jmock.Mockery"/>
-			
+	<beans:bean id="validator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />		
 	 <!-- Mock Object -->
 	    <beans:bean id="commentFormBean" name="commentFormBean" factory-bean="mockContext" factory-method="mock"
 	    	 class="org.tilu.stuff.beans.CommentFormBean">
@@ -37,6 +38,15 @@
 	    	 class="org.tilu.stuff.businessdelegate.WebBussinessDelegate">
 	        <beans:constructor-arg value="org.tilu.stuff.businessdelegate.WebBussinessDelegate" />
 	    </beans:bean>
+		
+		<beans:bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />	    
+		<beans:bean name="viewResolver"
+			class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+				<beans:property name="viewClass"
+					value="org.springframework.web.servlet.view.JstlView" />
+				<beans:property name="prefix" value="/WEB-INF/jsp/" />
+				<beans:property name="suffix" value=".jsp" />
+		</beans:bean>
 
 <!-- 	<beans:bean id="taskServiceFactory"  -->
 <!-- 		class="org.tilu.beats.dataprocessing.service.TaskServiceFactory" scope="prototype"  />   -->
