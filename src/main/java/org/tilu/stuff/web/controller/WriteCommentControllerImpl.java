@@ -6,12 +6,15 @@ import java.util.Map;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Required;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.validation.Validator;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
@@ -57,8 +60,8 @@ public class WriteCommentControllerImpl implements WriteCommentController {
 
 	@RequestMapping(value="/writecomment.do",method=RequestMethod.POST) 
 	@Override
-	public ModelAndView handleRequest(HttpServletRequest request,
-			HttpServletResponse response) throws Exception {
+	public ModelAndView handleRequest( @Valid CommentFormBean commentFormBean, HttpServletRequest request,
+			HttpServletResponse response, BindingResult result) throws Exception {
 		//Transform the data in something useful
 		
 		Map<String, Object> model = new HashMap();	
@@ -68,6 +71,9 @@ public class WriteCommentControllerImpl implements WriteCommentController {
 			
 			if (logger.isDebugEnabled() ) logger.debug((String) request.getParameter(COMMENT_FORM) );
 			commentFormBean=new CommentFormBeanImpl();
+			 if (result.hasErrors()) {
+				 System.out.println("result has errors()"); 
+			 }
 		}else{
 			logger.error("inputComment parameter is coming null");
 			throw new IllegalArgumentException("inputComment is null");

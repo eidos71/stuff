@@ -12,12 +12,17 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
+import org.mockito.MockitoAnnotations.Mock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.servlet.ModelAndView;
 import org.tilu.stuff.beans.CommentFormBeanImpl;
 import org.tilu.stuff.businessdelegate.WebBussinessDelegate;
 import org.tilu.stuff.businessdelegate.WebBussinessDelegateImpl;
@@ -27,6 +32,9 @@ import org.tilu.stuff.tools.StatusEnum;
 @ContextConfiguration(locations = { "/runVisitorComments-ctx.xml" })
 
 public class WebBusinessTest {
+	@Mock
+	private BindingResult mockBindingResult;
+	
 	private final static Logger logger = LoggerFactory.getLogger(WebBusinessTest.class);
 	@Autowired
 	private ApplicationContext applicationContext;
@@ -75,4 +83,6 @@ public class WebBusinessTest {
 		
 		assertEquals (StatusEnum.SUCCESS, webBussiness.createCommentPolicy(mCommentFormBean) );
 	}
+
+
 }

@@ -1,13 +1,23 @@
 package org.tilu.stuff.beans;
 
-import org.springframework.context.annotation.Scope;
+
+import javax.persistence.GeneratedValue;
+import javax.validation.constraints.NotNull;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.validation.Validator;
 
 @Service
-@Scope("prototype")
+
 public class CommentFormBeanImpl implements CommentFormBean {
-	private int beanid;
+	@Autowired
+    private Validator validator;
+	@GeneratedValue
+	private Integer beanid;
+	@NotNull
 	private String commentText;
+	
 	private Boolean aprovedBy;
 	@Override
 	public int getBeanid() {
@@ -30,5 +40,19 @@ public class CommentFormBeanImpl implements CommentFormBean {
 	public void setAprovedBy(Boolean aprovedBy) {
 		this.aprovedBy = aprovedBy;
 	}
-	
+    /**
+     * Constructs a <code>String</code> with all attributes
+     * in name = value format.
+     *
+     * @return a <code>String</code> representation 
+     * of this object.
+     */
+    public String toString() {
+       StringBuilder sb = new StringBuilder("[[CommsPlan]");
+       sb.append("[aprovedBy = ").append(this.aprovedBy).append("]");
+       sb.append("[commentText = ").append(this.commentText).append("]");
+       sb.append("[beanid = ").append(this.beanid).append("]");
+       sb.append("]");
+       return sb.toString();
+    }	
 }

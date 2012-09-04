@@ -17,6 +17,9 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
+import org.mockito.MockitoAnnotations.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.mock.web.MockHttpServletRequest;
@@ -37,6 +40,8 @@ import org.tilu.stuff.web.controller.WriteCommentControllerImpl;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "/runVisitorComments-ctx.xml" })
 public class WriteCommentControllerTest {
+	@Mock
+	private BindingResult mockBindingResult;
 	@Inject
 	private  Mockery mockContext ;
 	@Autowired
@@ -75,10 +80,6 @@ public class WriteCommentControllerTest {
 		fail("Not yet implemented");
 	}
 
-	@Test
-	public void testWriteCommentControllerImpl() {
-		fail("Not yet implemented");
-	}
 	@Test
 	public void testHandleRequest() throws Exception {
 		Expectations success= new Expectations() {

@@ -1449,3 +1449,47 @@ java.lang.IllegalStateException: @Resource annotation is not supported on static
 2012-09-04 14:00:10,083                 INFO   [WriteCommentControllerImpl] viewname value is successdeleteform and status is SUCCESS 
 2012-09-04 18:37:19,747                 DEBUG  [WebBussinessDelegateImpl] We sent the message and forget about itThis is a succesful message  
 2012-09-04 18:37:42,136                 DEBUG  [WebBussinessDelegateImpl] We sent the message and forget about itThis is a succesful message  
+2012-09-04 19:43:54,091                 DEBUG  [WriteCommentControllerImpl] 15 
+2012-09-04 19:43:54,097                 INFO   [WriteCommentControllerImpl] viewname value is successdeleteform and status is SUCCESS 
+2012-09-04 19:43:54,229                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 19:43:54,235                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 19:43:54,241                 INFO   [VisitorCommentTest] org.jmock.Mockery@3fc0c26a 
+2012-09-04 19:43:54,241                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-04 19:43:54,241                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-04 19:43:54,507                 DEBUG  [WebBussinessDelegateImpl] We sent the message and forget about itThis is a succesful message  
+2012-09-04 21:20:46,024                 DEBUG  [WriteCommentControllerImpl] 15 
+2012-09-04 21:20:46,028                 INFO   [WriteCommentControllerImpl] viewname value is successdeleteform and status is SUCCESS 
+2012-09-04 21:20:46,328                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 21:20:46,335                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 21:20:46,340                 INFO   [VisitorCommentTest] org.jmock.Mockery@4fc9a3d6 
+2012-09-04 21:20:46,340                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-04 21:20:46,340                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-04 21:20:46,364                 DEBUG  [WebBussinessDelegateImpl] We sent the message and forget about itThis is a succesful message  
+2012-09-04 21:35:54,970                 DEBUG  [WebBussinessDelegateImpl] We sent the message and forget about itThis is a succesful message  
+2012-09-04 21:36:59,323                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 21:36:59,365                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 21:36:59,380                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 21:36:59,391                 INFO   [VisitorCommentTest] org.jmock.Mockery@5193a581 
+2012-09-04 21:36:59,391                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-04 21:36:59,395                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-04 21:37:19,213                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 21:37:56,265                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 21:39:36,995                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 21:50:20,908                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 21:52:09,354                 DEBUG  [WriteCommentControllerImpl] Lore Ipsum quoonquoe value 
+2012-09-04 21:53:42,380                 DEBUG  [WriteCommentControllerImpl] Lore Ipsum quoonquoe value 
+2012-09-04 21:54:43,863                 DEBUG  [WriteCommentControllerImpl] Lore Ipsum quoonquoe value 
+2012-09-04 21:56:05,149                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-04 21:56:05,167                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-04 21:56:05,200                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 21:56:05,209                 INFO   [VisitorCommentTest] org.jmock.Mockery@459ad180 
+2012-09-04 21:56:05,209                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-04 21:56:05,209                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-04 22:10:00,709                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-04 22:10:00,728                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-04 22:10:59,948                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-04 22:10:59,960                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-04 22:11:40,745                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-04 22:11:40,765                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-04 22:12:28,697                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 22:12:50,235                 DEBUG  [WriteCommentControllerImpl] Lore Ipsum quoonquoe value 
