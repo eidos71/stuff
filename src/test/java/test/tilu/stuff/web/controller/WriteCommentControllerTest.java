@@ -64,8 +64,8 @@ public class WriteCommentControllerTest {
 	}
 	@Before
 	public void setUp() throws Exception {
-		 request = new MockHttpServletRequest("GET", "/secure/view");
-		 response = new MockHttpServletResponse();
+		request = new MockHttpServletRequest("GET", "/secure/view");
+		response = new MockHttpServletResponse();
 		servletContext = new MockServletContext();
 		mockContext= applicationContext.getBean("mockContext",Mockery.class);
 		//handlerAdapter = applicationContext.getBean(HandlerAdapter.class);
@@ -98,8 +98,6 @@ public class WriteCommentControllerTest {
 	        request.setMethod("get");
 	        ModelMap model = new ModelMap();
 	        WriteCommentController writ= new WriteCommentControllerImpl(webBussinessDelegate);
-			
-			
 	        assertEquals( "successdeleteform", writ.deleteRequest(request, response).getViewName() );
 	        
 	}

@@ -1438,3 +1438,14 @@ java.lang.IllegalStateException: @Resource annotation is not supported on static
 2012-09-03 18:55:53,536                 DEBUG  [WriteCommentControllerImpl] 15 
 2012-09-03 18:58:00,195                 DEBUG  [WriteCommentControllerImpl] 15 
 2012-09-03 18:58:00,199                 INFO   [WriteCommentControllerImpl] viewname value is successdeleteform and status is SUCCESS 
+2012-09-04 11:03:58,138                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 11:03:58,167                 ERROR  [WriteCommentControllerImpl] inputComment parameter is coming null 
+2012-09-04 11:03:58,175                 INFO   [VisitorCommentTest] org.jmock.Mockery@6bcc7462 
+2012-09-04 11:03:58,175                 DEBUG  [WriteCommentControllerImpl] Este es un comentario que ha sido enviado a por el tema 
+2012-09-04 11:03:58,177                 INFO   [WriteCommentControllerImpl] viewname value is successwriteform and status is SUCCESS 
+2012-09-04 11:04:08,361                 DEBUG  [WriteCommentControllerImpl] 15 
+2012-09-04 11:04:08,365                 INFO   [WriteCommentControllerImpl] viewname value is successdeleteform and status is SUCCESS 
+2012-09-04 14:00:10,059                 DEBUG  [WriteCommentControllerImpl] 15 
+2012-09-04 14:00:10,083                 INFO   [WriteCommentControllerImpl] viewname value is successdeleteform and status is SUCCESS 
+2012-09-04 18:37:19,747                 DEBUG  [WebBussinessDelegateImpl] We sent the message and forget about itThis is a succesful message  
+2012-09-04 18:37:42,136                 DEBUG  [WebBussinessDelegateImpl] We sent the message and forget about itThis is a succesful message  

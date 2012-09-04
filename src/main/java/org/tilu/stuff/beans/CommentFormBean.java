@@ -6,4 +6,10 @@ import org.springframework.stereotype.Service;
 
 public interface CommentFormBean {
 
+	Boolean getAprovedBy();
+
+	String getCommentText();
+
+	int getBeanid();
+
 }
